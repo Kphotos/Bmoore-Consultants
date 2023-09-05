@@ -1,0 +1,125 @@
+.blk{
+    color:black;
+}
+
+.blk:hover{
+    color:white;
+    font-weight: bold;
+    background-color: var(--lPurp);
+    width:100%;
+    padding:12px;
+}
+
+.formInput{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    margin-bottom: 25px;
+}
+
+.formInput, inputBoxes{
+    margin-left: 20px;
+    
+}
+
+.formInfo{
+    display:flex;
+    gap: 100px;
+}
+
+.content{
+    margin:20px;
+}
+
+.content h2{
+    color:black;
+}
+
+.svcText ,p{
+    font-size: 20px;
+    line-height: 20px;
+}
+.imgPad, img{
+    padding-top: 10px;
+}
+
+.Sfont{
+    font-weight: bold;
+    color:white;
+}
+
+.formy{
+    display:flex;
+    flex-direction: row;
+    gap:50px;
+    padding-left: 20px;
+    padding-bottom: 50px;;
+}
+
+.clm{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.acctbuttons{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+
+}
+
+hr{
+    background-color: black;
+    height:2px;
+}
+
+.profileIntro{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.btn1{
+    color:white;
+    background-color: black;
+    border-style: none;
+    
+}
+.btn2{
+    color: white;
+    background-color: var(--lPurp);
+    border-style: none;
+}
+
+.btn3{
+    color:white;
+    background-color: black;
+    border-style: none;
+}
+
+.btn{
+    font-size: 1.5rem;
+}
+
+.btn:hover{
+    color:white;
+}
+
+.customerType{
+    background-color: #333;
+    color:white;
+    padding:10px;
+}
+
+.customerT{
+    display:inline-block;
+}
+
+.status{
+    display:flex;
+    gap:15px;
+    background-color: #222;
+    padding:20px;
+    font-size: 18px;
+}

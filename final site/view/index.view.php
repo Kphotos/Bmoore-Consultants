@@ -1,9 +1,9 @@
 
-<?php // $title = 'BMoore Consultancy Home'; ?>
+<?php  $title = 'BMoore Consultancy Home'; ?>
 <!-- Header File with name of page -->
-<?php // require('../inc/header.inc.php'); ?>
+<?php  require('../inc/header.inc.php'); ?>
 <!-- Navigation Menu -->
-<?php//  require('../inc/nav.inc.php'); ?> 
+<?php require('../inc/nav.inc.php'); ?> 
 <?php //echo '<br>' ?>
  <!-- Home page content 1 -->
 <?php // include('../inc/index_content1.inc.php'); ?>
