@@ -1,0 +1,174 @@
+/*https://mycolor.space/?hex=%235A3D72&sub=1*/ 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root {
+  --black: #000;
+  --white: #fff;
+    --purple1: rgba(90,61,114,0.5);
+    --compColor1: #FEE9FF;
+    --compColor2:#FDF7FF;
+    --compCTA: #00BEE6;
+    --lightColor1: #FFFADE;
+    --purple1shade1: #C7A5E1;
+    --purple1shade2: #210838;
+    --largeFont: 37.8px;
+    --normalFont: 18px;
+    
+  }
+
+  .textbar{
+    width:100%;
+    height: auto;
+    background-color: var(--lightColor1);
+    display:flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    padding:8px 12px;
+   
+  }
+  .register{
+    background-color: var(--purple1shade2);
+    color:var(--lightColor1);
+  }
+
+  .login{
+    margin-right: 12px;
+    background-color: var(--purple1shade1);
+  }
+  .login ,.register{
+    padding: 8px;
+    
+  }
+
+  .socialbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+  }
+  .sButtons{
+    display:flex;
+    list-style: none;
+    padding:12px;
+  }
+ 
+
+  .navi{
+    background-color: var(--black);
+    color:var(--white);
+    width:980PX;
+    height:68px;
+    margin: 0 auto;
+    font-family: Poppins;
+    font-size: 14px;
+
+    
+  }
+  .navi ul{
+    display:flex;
+    justify-content:flex-start;
+    gap:15px;
+    padding-left: 15px;
+    align-content: flex-start;
+    list-style: none;
+  }
+
+  .navi ul ,li{
+    text-decoration: none;
+    color:var(--white);
+  }
+
+  
+    
+ 
+ 
+ 
+
+.hero-container{
+    background-color: pink;
+    width:100%;
+    height:600px;
+   
+}
+
+.hero{
+    background-image: url(./images/team.jpg);
+    width:100%;
+    height:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y:bottom;
+    position:relative;
+}
+
+.overlay{
+    position:absolute;
+    background-color:var(--purple1);
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+
+}
+
+.text-overlay{
+    position:absolute;
+    height: 200px;
+    top:35%;
+    right:4%;
+    
+}
+.text-overlay ,h1 ,p{
+    margin-bottom: 16px;
+}
+.text-overlay h1{
+    font-size: var(--largeFont);
+    color:var(--compColor1);
+}
+.text-overlay p{
+    font-size: var(--normalFont);
+    color:var(--compColor2);
+}
+.cta button{
+    padding:20px;
+    background-color: var(--compCTA);
+    
+}
+
+.test{
+  background-color: pink;
+ 
+}
+
+.content1{
+  width:100%;
+  height: 60px;
+  background-color: var(--compCTA);
+}
+.text-center{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.text-center h1{
+  margin-bottom: 3px;
+}
+.twoside{
+  display:flex;
+
+}
+
+.sideImage{
+  width:800px;
+  height:600px;
+  background-image: url(./images/hunters-race-MYbhN8KaaEc-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
